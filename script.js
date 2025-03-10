@@ -69,8 +69,7 @@ check.addEventListener("change",()=>{
     
     tasks.className="completed-task"
     tasks.style.opacity="0.5";
-    let checkboxx=tasks.querySelectorAll("input[type='checkbox']")
-    checkboxx.forEach(cb=>cb.style.pointerEvents="auto")
+    tasks.pointerEvents="none"
     divv.remove()
   }
   else{
