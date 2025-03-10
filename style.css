@@ -1,0 +1,128 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    
+}
+body{
+    background-color: #c2c4d0;
+}
+#top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    background-color: #46539E
+}
+#heading{
+    
+   color: white;
+   padding-left: 50px;
+   padding-top: 20px;
+}
+#dates{
+    display: flex;
+   
+}
+#datesd{
+ margin-right: 5px;
+}
+#clock{
+    color: white;
+}
+#dt{
+    padding-right: 50px;
+   padding-top: 20px;
+}
+#addtask{
+    display: flex;
+    justify-content: center;
+}
+#inputTask{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+    border: none;
+    color: rgb(7, 7, 72);
+    padding: 0px 10px;
+    font-size: large;
+    font-weight: 400;
+    
+}
+#atask{
+    width:50px;
+    height: 41px;
+    border-radius: 10px;
+    background-color: rgb(38, 60, 200);
+    border: none;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.container{
+    width:700px;
+    height:auto;
+    background-color: #a0a5b9;
+    box-shadow: 0px 0px 10px rgba(42, 53, 80, 0.684);
+    padding: 30px;
+    
+}
+
+.main-cont{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+   
+}
+.divcls{
+    width:600px ;
+    height:70px ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    
+    background-color: rgb(220, 221, 242);
+    border-radius: 15px;
+    align-items: center;
+    padding: 0px 20px;
+    
+}
+#pencont{
+    display: flex;
+    justify-content: center;
+}
+.completed-task{
+    width:600px ;
+    height:70px ;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    color: black;
+    background-color: rgb(220, 221, 242);
+    border-radius: 15px;
+    align-items: center;
+    padding: 0px 20px;
+}
+#cmptask{
+    display: flex;
+    justify-content: center;
+}
+.ls{
+display: flex;
+padding: 10px;
+color:rgb(41, 18, 137);
+
+}
+.delbut{
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 35, 35);
+}
